@@ -1,0 +1,14 @@
+function [z1, z3, z3, z4, z5, z6] = softmax(x1, x2, x3, x4, x5, x6)
+%SOFTMAX Summary of this function goes here
+%   Detailed explanation goes here
+y1 = exp(x1);
+y2 = exp(x2);
+y3 = exp(x3);
+y4 = exp(x4);
+y5 = exp(x5);
+y6 = exp(x6);
+
+z1 = y1 ./ ()
+s = inputArg2;
+end
+
